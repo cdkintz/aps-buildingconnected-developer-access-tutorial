@@ -44,7 +44,7 @@ There are two relevant non-production environments for developers:
 - `test` (for developers)
 - `alpha` (for partners)
 
-To make an API call to a non-production environment, include the headers “x-bc-mode: [environment name]”.
+To make an API call to a non-production environment, include the headers “x-bc-mode: test” for the test environment and `x-ads-target-server: alpha` for the partner environment.
 
 ### Example Call for Developers without a BuildingConnected Account
 
