@@ -256,13 +256,13 @@ You don’t need to know anything about code to use the API using Postman. This 
 
 3. In your Postman workspace, click on the import button.
 
-   ![image](https://github.com/cdkintz/aps-buildingconnected-developer-access-tutorial/assets/16196853/d567db46-cb92-4d47-83b2-ec35c7577a5e)
+   ![image](https://github.com/cdkintz/aps-buildingconnected-developer-access-tutorial/assets/16196853/d337fcf2-4e2f-4324-9873-d0c1de854d1e)
 
 4. Upload the Postman file.
 
 5. In your new collection, go to Variables and add in your client id and client secret and hit save.
 
-   ![image](https://github.com/cdkintz/aps-buildingconnected-developer-access-tutorial/assets/16196853/c7334034-8c0a-4da2-af56-efae976e1eda)
+   ![image](https://github.com/cdkintz/aps-buildingconnected-developer-access-tutorial/assets/16196853/50665d45-7233-4845-863f-076249f08e8e)
 
 6. Go to Authorization and click “Get New Access Token” at the very bottom.
 
@@ -274,7 +274,8 @@ You don’t need to know anything about code to use the API using Postman. This 
 
 10. If accessing the developer environment (if you don’t currently have a BuildingConnected paid subscription), go to Pre-request scripts and add “pm.request.headers.add("x-bc-mode: test")” and hit save.
 
-    ![image](https://github.com/cdkintz/aps-buildingconnected-developer-access-tutorial/assets/16196853/18c97979-bcb0-46cb-8e1d-c6fe7762e84b)
+    ![image](https://github.com/cdkintz/aps-buildingconnected-developer-access-tutorial/assets/16196853/301719aa-d741-4c83-898c-e7e8367380be)
+
 
 You are free to use this Postman library for all your API calls to the BuildingConnected API. We will keep this GitHub repository up to date as we add new endpoints.
 
