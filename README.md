@@ -30,7 +30,7 @@ Use the token to make your first API call:
 
 Notes: 
 
-- Pay attention to the header requirements
+- Pay attention to the header requirements for the /token endpoint:
     - The authorization value must be base 64 encoded as `"value = encode(client_id:client_secret)"`
     - Content-type must be `application/x-www-form-urlencoded`
 - If you are creating a direct PowerBI application, you may need to use PKCE authentication ([see tutorial](#)) but we recommend all our clients to set up an ETL ([see tutorial](#)) so they maximize access to their data
@@ -42,7 +42,7 @@ If you are a developer without a BuildingConnected account, you can use the deve
 There are two relevant non-production environments for developers:
 
 - `test` (for developers)
-- `stage` (for partners)
+- `alpha` (for partners)
 
 To make an API call to a non-production environment, include the headers “x-bc-mode: [environment name]”.
 
