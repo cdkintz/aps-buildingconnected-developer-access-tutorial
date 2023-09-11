@@ -242,9 +242,25 @@ The test environment provides pre-set data to reflect what BuildingConnected cus
 
 All query parameters that are outlined in the documentation are handled by the test environment. Data is not persisted from calls made to write endpoints. Only partners are provided access to the alpha environment that supports data persistence.
 
-# Become an Autodesk Partner
+# Accessing the "Alpha" environment as an Autodesk Partner
 
-Check out our partner portal if you are interested in accessing the `alpha` environment. There are additional benefits to becoming an Autodesk Construction Cloud integration partner beyond integration support.
+Check out our [partner portal](https://construction.autodesk.com/partner-signup/) if you are interested in accessing the `alpha` environment. There are additional benefits to becoming an Autodesk Construction Cloud integration partner beyond integration support.
+
+## If You're Already Approved to Use Alpha, Follow These Steps to Get Started
+
+1. **Create APS Account and Application**
+    - Navigate to [APS Autodesk](https://aps.autodesk.com/) and create both an APS account and application.
+
+2. **Create BuildingConnected Company in Alpha Environment**
+    - Go to [Alpha BuildingConnected](https://app-alpha.buildingconnected.com/) and click on "need account".
+
+3. **Choose Company Option**
+    - Choose "create a new company" unless one of your colleagues has already created one.
+
+4. **Email Autodesk Partner Team**
+    - Email your contact at the Autodesk partner team with the email address you used to create your BuildingConnected account.
+
+
 
 # Use Postman to Make Your First API Call
 
