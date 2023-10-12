@@ -53,7 +53,7 @@ Here is an example of a call for a developer who does not have a BuildingConnect
 ```shell
 curl 'https://developer.api.autodesk.com/construction/buildingconnected/v2/opportunities' \
      -H 'Authorization: Bearer nFRJxzCD8OOUr7hzBwbr06D76zAT' \
-     -H 'x-bc-mode: test'
+     -H 'x-ads-target-server: test'
 ```
 
 The test environment provides pre-set data to reflect what BuildingConnected customers would typically fill in the application. Here is an example:
