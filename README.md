@@ -48,12 +48,12 @@ To make an API call to a non-production environment, include the headers “x-bc
 
 ### Example Call for Developers without a BuildingConnected Account
 
-Here is an example of a call for a developer who does not have a BuildingConnected account:
+Here is an example of a call for a developer accessing Alpha:
 
 ```shell
 curl 'https://developer.api.autodesk.com/construction/buildingconnected/v2/opportunities' \
      -H 'Authorization: Bearer nFRJxzCD8OOUr7hzBwbr06D76zAT' \
-     -H 'x-ads-target-server: test'
+     -H 'x-ads-target-server: alpha'
 ```
 
 The test environment provides pre-set data to reflect what BuildingConnected customers would typically fill in the application. Here is an example:
